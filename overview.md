@@ -103,3 +103,5 @@ On the other hand, `phase_02.js` works completely differently. We have wrapped f
 ### Phase 3, Await and .then()
 
 There are two different ways to approach promises. You can use either one, and either one gets you to the same place. I prefer to use `.then()` chaining because it makes more procedural sense to me, but using `await` is without a dobut cleaner. Whichever one you choose to use, they're both just promises.
+
+Take a look in the file `phase_03.js`. There is a function named `getData()` which simulates an API call. It returns a promise, which contains within it code to double the input variable after one second. Write two functions that handle the "server"'s promise: one using `await`, and one using `.then()`.
